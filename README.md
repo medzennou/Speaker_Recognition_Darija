@@ -13,6 +13,16 @@ Data collected from Youtube, Instagram, Messanger
 # Model
 [Describe the model you are using, including its architecture, hyperparameters, and any other relevant details. Include code snippets that show how the model was trained and evaluated]
 
+```python
+# This code loads the data and preprocesses it
+import pandas as pd
+data = pd.read_csv('data.csv')
+# preprocess the data
+preprocessed_data = preprocess(data)
+
+
+'''
+
 # Results
 [Include a summary of your results, including any metrics you used to evaluate your model's performance. If you have visualizations or graphs, include those here]
 
